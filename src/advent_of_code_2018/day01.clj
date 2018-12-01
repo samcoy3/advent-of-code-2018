@@ -9,13 +9,13 @@
   (reduce + (read-input)))
 
 (defn part-b []
-  (loop [prev-freq (hash-set)
+  (loop [prev-freqs (hash-set)
          input-cycle (cycle (read-input))
-         cum-freq 0]
-    (let [next-freq (+ cum-freq (first input-cycle))]
-      (if (contains? prev-freq next-freq)
+         current-total-freq 0]
+    (let [next-freq (+ current-total-freq (first input-cycle))]
+      (if (contains? prev-freqs next-freq)
         next-freq
         (recur
-         (conj prev-freq next-freq)
+         (conj prev-freqs next-freq)
          (drop 1 input-cycle)
          next-freq)))))
