@@ -1,7 +1,7 @@
 (ns advent-of-code-2018.core
   (:use [clojure.pprint])
   (:require [advent-of-code-2018.day01 :as day01]
-             [advent-of-code-2018.day02 :as day02])
+            [advent-of-code-2018.day02 :as day02])
   (:gen-class))
 
 (defn -main
