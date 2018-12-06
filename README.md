@@ -11,3 +11,4 @@ Just run `lein run`, and a table with the solutions completed so far should be o
 Small list of things to tidy up here:
 
 - Clean up solution to 3A.
+- Make 5 run a little faster, maybe by using `pmap`.
