@@ -3,7 +3,9 @@
   (:require [advent-of-code-2018.day01 :as day01]
             [advent-of-code-2018.day02 :as day02]
             [advent-of-code-2018.day03 :as day03]
-            [advent-of-code-2018.day04 :as day04])
+            [advent-of-code-2018.day04 :as day04]
+            [advent-of-code-2018.day05 :as day05]
+            [advent-of-code-2018.day06 :as day06])
   (:gen-class))
 
 (defn -main
@@ -19,4 +21,8 @@
     {:day 3 :part "B" :answer (day03/part-b)}
     {:day 4 :part "A" :answer (day04/part-a)}
     {:day 4 :part "B" :answer (day04/part-b)}
+    {:day 5 :part "A" :answer (day05/part-a)}
+    {:day 5 :part "B" :answer (day05/part-b)}
+    {:day 6 :part "A" :answer (day06/part-a)}
+    {:day 6 :part "B" :answer (day06/part-b)}
     ]))
