@@ -6,12 +6,18 @@
             [advent-of-code-2018.day04 :as day04]
             [advent-of-code-2018.day05 :as day05]
             [advent-of-code-2018.day06 :as day06]
-            [advent-of-code-2018.day07 :as day07])
+            [advent-of-code-2018.day07 :as day07]
+            [advent-of-code-2018.day08 :as day08]
+            [advent-of-code-2018.day09 :as day09]
+            [advent-of-code-2018.day10 :as day10]
+            [advent-of-code-2018.day11 :as day11])
   (:gen-class))
 
 (defn -main
   "Prints all of the solutions to the problems solved so far."
   []
+  (println (day09/play-game 10 100))
+  (println (day09/play-game 471 7202600))
   (print-table
    [
     {:day 1 :part "A" :answer (day01/part-a)}
@@ -28,4 +34,12 @@
     {:day 6 :part "B" :answer (day06/part-b)}
     {:day 7 :part "A" :answer (day07/part-a)}
     {:day 7 :part "B" :answer (day07/part-b)}
+    {:day 8 :part "A" :answer (day08/part-a)}
+    {:day 8 :part "B" :answer (day08/part-b)}
+    {:day 9 :part "A" :answer (day09/part-a)}
+    {:day 9 :part "B" :answer (day09/part-b)}
+    {:day 10 :part "A" :answer (day10/part-a)}
+    {:day 10 :part "B" :answer (day10/part-b)}
+    {:day 11 :part "A" :answer (day11/part-a)}
+    {:day 11 :part "B" :answer (day11/part-b)}
     ]))

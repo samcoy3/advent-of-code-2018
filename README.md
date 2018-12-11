@@ -12,3 +12,4 @@ Small list of things to tidy up here:
 
 - Clean up solution to 3A.
 - Make 5 run a little faster, maybe by using `pmap`.
+- Make 11B run a little faster.
