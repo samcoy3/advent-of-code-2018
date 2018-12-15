@@ -13,3 +13,5 @@ Small list of things to tidy up here:
 - Clean up solution to 3A.
 - Make 5 run a little faster, maybe by using `pmap`.
 - Make 11B run a little faster.
+- Make 12B detect end of problem automatically.
+- Reduce code duplication in 13.
